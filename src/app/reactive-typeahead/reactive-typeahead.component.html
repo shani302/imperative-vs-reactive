@@ -1,0 +1,5 @@
+<input type="text" [formControl]="criteriaFormControl">
+
+<ul class="item-list" *ngFor="let c of filteredContries$ | async">
+  <li>{{c.name}}</li>
+</ul>

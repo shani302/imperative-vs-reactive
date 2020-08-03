@@ -1,0 +1,7 @@
+.app-container {
+  display: flex;
+}
+
+.left-side, .right-side {
+  flex: 1 0 auto;
+}
